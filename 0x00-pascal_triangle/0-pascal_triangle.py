@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ An algorithm to create the Pascal's triangle. """
 
+
 def pascal_triangle(n):
     """ Returns a list of lists of integers
     representing the Pascal’s triangle of n.
@@ -11,7 +12,7 @@ def pascal_triangle(n):
     elif n == 1:
         pascal = [1]
     else:
-        pascal = [ [1], [1, 1]]
+        pascal = [[1], [1, 1]]
         row = [1, 1]
         i = 1
         while i < n:
