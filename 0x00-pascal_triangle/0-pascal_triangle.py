@@ -8,7 +8,7 @@ def pascal_triangle(n):
     """
     pascal = []
     if n <= 0:
-        pascal = [[]]
+        pascal = []
     elif n == 1:
         pascal = [1]
     else:
