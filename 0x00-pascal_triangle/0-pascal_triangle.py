@@ -15,7 +15,7 @@ def pascal_triangle(n):
         pascal = [[1], [1, 1]]
         row = [1, 1]
         i = 1
-        while i < n:
+        while i < n - 1:
             j = -1
             approw = []
             while j < (len(row) + 1) // 2:
