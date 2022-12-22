@@ -9,7 +9,7 @@ def pascal_triangle(n):
     if n <= 0:
         pascal = []
     elif n == 1:
-        pascal = [1]
+        pascal = [[1]]
     else:
         pascal = [[1], [1, 1]]
         row = [1, 1]
