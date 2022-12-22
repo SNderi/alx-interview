@@ -1,5 +1,5 @@
-#!/bin/python3
-""" Pascal's triangle generator. """
+#!/usr/bin/python3
+""" An algorithm to create the Pascal's triangle. """
 
 
 def pascal_triangle(n):
