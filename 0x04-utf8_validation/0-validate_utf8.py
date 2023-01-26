@@ -5,7 +5,7 @@
 
 def _bin(integer):
     binary_string = ''
-    while(integer > 0):
+    while (integer > 0):
         digit = integer % 2
         binary_string += str(digit)
         integer = integer // 2
@@ -16,6 +16,7 @@ def _bin(integer):
     elif len(binary_string) > 8:
         binary_string = binary_string[:8]
     return binary_string
+
 
 def validUTF8(data):
     """ A method that determines if a given data set
