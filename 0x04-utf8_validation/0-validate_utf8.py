@@ -24,7 +24,7 @@ def validUTF8(data):
     """
     n_bytes = 0
     for num in data:
-        bin_string = _bin(num)
+        bin_string = format(num, '#010b')[-8:]
         if n_bytes == 0:
             for bit in bin_string:
                 if bit == '0':
